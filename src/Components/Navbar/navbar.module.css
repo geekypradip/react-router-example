@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+}
+.navLink {
+  text-decoration: none;
+  color: #fff;
+}
+.navLink:hover {
+  font-weight: bold;
+  border: 1px solid tomato;
+  padding: 3px;
+}
+.activeLink {
+  font-weight: bold;
+  border: 1px solid tomato;
+  padding: 3px;
+}
